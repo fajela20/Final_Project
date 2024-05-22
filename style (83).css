@@ -1,0 +1,217 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F8F8;
+    margin: 0;
+}
+
+#header
+{
+    background-color: white;
+    position: fixed;
+    box-shadow: 0px 0px 10px #d2cece;
+
+    height: 70px;
+ 
+    width: 100%;
+    display: flex;
+}
+#content
+{
+    color: #00AC24;
+  
+    font-size: 16px;
+
+    padding-left: 130px;
+    padding-top: 10px;
+
+}
+#x
+{
+    color: #00AC24;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 750px;
+    padding-top: 200px;
+
+}
+
+#xx
+{
+    padding-top: 20px;
+}
+
+#bt1img
+{
+   
+   padding-left: 125px;
+   padding-top: 50px;
+}
+img{
+    border-radius: 16px;
+}
+
+#motherdiv
+{
+    display: flex;
+    padding-top: 80px;
+}
+
+#radio
+{
+    background-color: #F8F8F8;
+    box-shadow: 0px 0px 20px #d2cece;
+    color:#333333;
+    font-size: 13px;;
+    margin-left: 100px;
+    margin-top: 40px;
+    height: 180px;
+    width: 600px;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#price
+{
+    color:#333333;
+    font-size: 13px;;
+    margin-top: 115px;
+    margin-left: -100px;
+}
+#myradio
+{
+    color: #00AC24;
+}
+#food2
+{
+   
+    padding-left: 125px;
+    padding-top: 50px;
+}
+#food1
+{
+   
+    padding-left: 165px;
+    padding-top: 20px;
+}
+#smallimg
+{
+    margin-left: 350px;
+    height: 100px;
+    width: 100px;
+}
+
+#content2
+{
+    color:#333333;
+    font-size: 20px;;
+    margin-top: 40px;
+    margin-left: 135px;
+}
+
+#content3
+{
+    color:#333333;
+    font-size: 13px;;
+    margin-top: 20px;
+    margin-left: 135px;
+}
+
+#myimg
+{
+    height: 95px;
+    width: 100px;
+    border: 1px solid #00AC24;
+    margin-top: -40px;
+    margin-left: -150px;
+    border-radius: 7px;
+}
+
+
+#none
+{
+    margin-top: 120px;
+}
+
+#footer
+{
+    display: flex;
+   
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+   
+    box-shadow: 0px 0px 10px #d2cece;
+
+    height: 90px;
+    margin-top: 200px;
+    width: 100%;
+    
+}
+
+#quantity
+{
+    padding-top: 15px;
+    margin-left: 150px;
+ 
+    
+}
+#quantstyle
+{
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    height: 30px;
+    width: 40px;
+   
+}
+
+#price2
+{
+    color: #333333;
+    font-size: 17px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#myplus
+{
+    height: 50px;
+    width: 70px;
+}
+
+#plus
+{
+    margin-left: -160px;
+    margin-top: 22px;
+}
+
+#myminus
+{
+    height: 70px;
+    width: 50px;
+}
+
+#minus
+{
+    margin-left: -80px;
+    margin-top: 12px;
+}
+
+#buttonAdd
+{
+    
+   
+    margin-left: 600px;
+    margin-top: 18px;
+}
+
+#buttonstyle
+{
+    color: #F8F8F8;
+    background-color: #00AC24;
+    border: none;
+    height: 55px;
+    width:300px;
+    font-size: 16px;
+    border-radius: 8px;
+}

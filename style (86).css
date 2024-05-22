@@ -1,0 +1,406 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  margin-left: 50px;
+}
+#heads{
+  position: fixed;
+  width:100%;
+  margin-top: -10px;
+  padding-right: 40px;
+}
+#head1{
+  display:  flex;
+  padding:5px;
+  background-color: white;
+  box-shadow: 5px 0 5px #eae5e5;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+#pic{
+  margin-left:140px;
+  display: block;
+  cursor: pointer;
+}
+#homee{
+  padding-top: 15px;
+}
+#homee a{
+  margin: 10px;
+  margin-left: 30px;
+  color: #00ac24;
+  font-size:20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#menu{
+  padding-top: 15px;
+}
+#menu a{
+  margin: 10px;
+  color: #00ac24;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#pic1{
+  margin-left:700px;
+}
+#sign{
+  margin: 10px;
+  color: #00ac24;
+  font-size: 7px;
+}
+#pic1, #sign ,#pic2 ,#pic3{
+  cursor: pointer;
+}
+#home {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+#back {
+  text-decoration: none;
+  color: green;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 70px;
+  margin-left: 40px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#back ion-icon {
+  margin-right: 5px;
+}
+
+#title {
+  margin-top: 30px;
+  margin-left: 50px;
+  display: inline-flex;
+  color: green;
+}
+
+
+
+#scrollable-container {
+  width: 370px;
+  height: 400px;
+  margin-left: 45px;
+  margin-top: 85px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  overflow-y: auto;
+  font-size: 15px;
+  position: relative;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+
+  scrollbar-color: #bdbdbd #eee; 
+}
+
+#search-form {
+  position: absolute;
+  padding: 15px 15px;
+  background-color: #fff;
+  z-index: 100;
+  margin-left: 45px;
+  margin-top: 8px;
+  width: 340px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0 -5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+#search-form input[type="text"] {
+  padding: 15px 40px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: calc(100% - 0px); 
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+#search-form input[type="text"]::placeholder {
+  color: #aaa; 
+}
+
+#search-form #search-icon, #search-form #close-icon {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  cursor: pointer;
+  color: gray;
+}
+
+#search-form #search-icon {
+  left: 30px;
+  color: #b1b1b1;
+}
+#search-form #close-icon {
+  right: 35px;
+  font-size: 18px;
+  color: green;
+}
+
+img {
+  margin-left : 50px;
+}
+
+#store-locator #hover:hover {
+  background-color: rgb(231, 255, 231);
+}
+
+#store-locator div h2 {
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: -35px;
+}
+
+#store-locator div p {
+  font-size: 13px;
+  margin-left: 100px;
+  margin-top: -5 px;
+  color: #333;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+
+
+#store-list {
+  list-style: none;
+  width: 770px;
+  height: 438px;
+  padding: 20px;
+  background-color: #fff;
+  margin-left: 435px;
+  margin-top: -478px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+#lg1 {
+  margin-bottom: 10px;
+  position: relative;
+  top: 20px;
+  right: 35px;
+}
+
+#city h2 {
+  font-size: 17px;
+  border-bottom: 2px solid #eee;
+  margin-top: -20px;
+  padding: 10px 0;
+  font-weight: 900;
+}
+
+#path {
+  display: flex;
+}
+
+#path i {
+  color: green;
+  font-size: 20px;
+  background-color: #eee;
+  padding: 8px 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: -5px;
+}
+
+#sub {
+  margin-top: -20px;
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+#business-hours {
+  display: flex;
+  margin-top: 5px;
+}
+
+#business-hours i {
+  color: green;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#text {
+  margin-top: -55px;
+  margin-left: 60px;
+}
+
+#day {
+  display: flex;
+  flex-direction: column;
+}
+
+#day ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#day li {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+
+#day-name {
+  font-weight: bold;
+}
+
+#time {
+  margin-right: 510px; 
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+#services {
+  margin: 15px;
+  position: relative;
+}
+
+#services h3 {
+  text-transform: uppercase;
+  margin-top: -40px;
+  margin-left: 40px;
+  margin-bottom: 3px;
+}
+
+#services i {
+  margin-left: -20px;
+  font-size: 15px;
+  padding: 12px 10px;
+}
+
+#services ul li {
+  margin: 3px 3px;
+  font-size: 15px;
+  display: inline-block;
+  font-size: 13px;
+  background-color: #ffec9e;
+  color: #f97300;
+  border-radius: 25px;
+  padding: 5px 10px;
+  font-weight: 700;
+}
+
+#services ul {
+  margin-left: -10px;
+}
+
+ul {
+  list-style: none;
+}
+
+#city {
+  margin-bottom: 50px;
+  position: relative;
+  top: 20px;
+  font-size: 15px;
+}
+
+#last{
+  margin-top: 100px;
+}
+#backk{
+  float: right;
+  padding-top: 30px;
+  padding-left: 10px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+#backk a{
+  text-decoration: none;
+  color: #00AC24;    
+  font-size: 12px;
+}
+#footer{
+  margin-top: 70px;
+  padding-top: 70px;
+}
+#fpic{
+  margin-left:150px;
+  display: block;
+}
+#up{
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  display: flex;
+  color: #00AC24;
+}
+#coni a{
+  text-decoration: none;
+  color: #00AC24;
+  font-size: 13px;
+  cursor: pointer;
+}
+#cons{
+  margin-left:200px;
+}
+#cons a{
+  text-decoration: none;
+  color: #00AC24;
+  font-size: 13px;
+  cursor: pointer;
+}
+#const{
+  margin-left:200px;
+}
+#const h3{
+  color: black;
+}
+#payb{
+  margin-left: none;
+}
+#web{
+  cursor: pointer;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+#fb{
+  float: left;
+  margin-top: -2px;
+}
+#tt{
+  float: left;
+  margin-left: -15px;
+}
+#ig{
+  float: left;
+  margin-left: -15px;
+}
+#yt{
+  float: left;
+  margin-left: -15px;
+}
+#rights{
+  text-align: center;
+  background-color: #00AC24;
+  padding: 20px;
+  color: white;
+  font-size: 10px;
+  width: 100%;
+}
+

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Greenwich</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<link rel="icon" href="green-logo.png" type="image/x-icon">
+</head>
+<div id="heads">
+  <div id="head1">
+      <div id="pic">
+          <img src="navpic.webp" width="115" height="50">
+      </div>
+      <div id="homee">
+          <a href="C:/Users/leonil/Desktop/GREENWICH/HOMEPAGE/index.html"><b>Home</b></a>
+      </div>
+      <div id="menu">
+          <a href="C:\Users\leonil\Desktop\GREENWICH\MENU\index.html"><b>Menu</b></a>
+      </div>
+      <div id="pic1">
+          <img src="sign.png" width="70" height="50">
+      </div>
+      <div id="sign">
+          <h1>Sign In</h1>
+      </div>
+      <div id="pic2">
+          <img src="bag.png" width="70" height="50">
+      </div>
+      <div id="pic3">
+          <a href="C:\Users\leonil\Desktop\GREENWICH\SEARCH\index.html" ><img src="search.png" width="70" height="50"></a>
+          
+      </div>    
+  </div>
+</div>
+<body id="body">
+
+<div id="home">
+  <a href="#" id="back"><ion-icon name="chevron-back-outline"></ion-icon>Back to Home</a>
+</div>
+<h1 id="title">Store Locator</h1>
+
+<div id="search-form">
+  <input type="text" id="location" name="location" placeholder="Enter your Barangay, Street or City">
+  <i id="fas fa-search search-icon" onclick="searchLocation()"></i>
+  <i id="fas fa-times close-icon" onclick="clearLocation()"></i>
+</div>
+<div id="scrollable-container">
+  <div id="store-locator">
+  <div id="store-baliwag" style="border-bottom: 2px solid #eee; background-color: rgb(231, 255, 231);" id="hover">
+      <div id="lg1">
+        <span><img src="green-logo.png" width="30" height="30"></span>
+      <h2>BALIWAG</h2>
+      <p>G/F PLAZA NANING, BALIWAG, BULACAN</p>
+    </div>
+  </div>
+
+    <div id="urdaneta" style="border-bottom: 2px solid #eee;" id="hover">
+      <div id="lg1">
+        <span><img src="green-logo.png" width="30" height="30"></span>
+      <h2>SM URDANETA</h2>
+      <p>G/F SM URDANETA CENTRAL, MAC ARTHUR HIGHWAY, DILAN PAURIDO POBLACION, URDANETA CITY, PANGASINAN</p>
+    </div>
+  </div>
+
+    <div id="lucena" style="border-bottom: 2px solid #eee;" id="hover">
+      <div id="lg1">
+        <span><img src="green-logo.png" width="30" height="30"></span>
+      <h2>LUCENA BAYAN</h2>
+      <p>2886 QUEZON AVE ST., LUCENA CITY, QUEZON</p>
+    </div>
+  </div>
+
+    <div id="cebu" style="border-bottom: 2px solid #eee;" id="hover">
+      <div id="lg1">
+        <span><img src="green-logo.png" width="30" height="30"></span>
+      <h2>SM CEBU</h2>
+      <p>UPPER GROUND FLOOR SM CITY CEBU, NORTH RECLAMATION AREA CEBU CITY</p>
+    </div>
+  </div>
+
+    <div id="iloilo" style="border-bottom: 2px solid #eee;" id="hover">
+      <div id="lg1">
+        <span><img src="green-logo.png" width="30" height="30"></span>
+      <h2>MARY MART ILOILO</h2>
+      <p>G/F, MARY MART COMPLEX, VALERIO ST., ILOILO CITY</p>
+    </div>
+  </div>
+
+    <div id="antique" style="border-bottom: 2px solid #eee;" id="hover">
+      <div id="lg1">
+        <span><img src="green-logo.png" width="30" height="30"></span>
+      <h2>ROBINSONS ANTIQUE</h2>
+      <p>GROUND FLOOR, ROBINSONS PLACE ANTIQUE NATIONAL HIGHWAY, BRGY. ANGEL, SAN JOSE ANTIQUE PROVINCE</p>
+    </div>
+  </div>
+
+    <div id="lopues-east" style="border-bottom: 2px solid #eee;" id="hover">
+      <div id="lg1">
+        <span><img src="green-logo.png" width="30" height="30"></span>
+      <h2>LOPUES EAST</h2>
+      <p>LEVEL 1, LOPUES EAST CENTRE, CIRCUMFERENTIAL ROAD, BACOLOD CITY, NEGROS OCCIDENTAL</p>
+    </div>
+  </div>
+
+    <div id="rob-ilocos" style="border-bottom: 2px solid #eee;" id="hover">
+      <div id="lg1">
+        <span><img src="green-logo.png" width="30" height="30"></span>
+      <h2>ROB ILOCOS</h2>
+      <p>G/F, ROBINSONS ILOCOS NORTE, SAN NICOLAS, ILOCOS NORTE</p>
+    </div>
+    </div>
+
+    <div id="sm-cauayan" style="border-bottom: 2px solid #eee;" id="hover">
+      <div id="lg1">
+        <span><img src="green-logo.png" width="30" height="30"></span>
+      <h2>SM CAUAYAN</h2>
+      <p>GROUND FLOOR, DISTRICT 2 SM CITY CAUAYAN, ISABELA</p>
+    </div>
+  </div>
+
+    <div id="bauan" style="border-bottom: 2px solid #eee;" id="hover">
+      <div id="lg1">
+        <span><img src="green-logo.png" width="30" height="30"></span>
+      <h2>BAUAN</h2>
+      <p>KAPITAN PONSO ST. POB 4 BAUAN BATANGAS</p>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<ul id="store-list">
+  <li>
+    <div id="city">
+      <h2>BALIWAG</h2>
+    </div>
+    <div id="path">
+      <div>
+        <i id="fas fa-map-marker-alt"></i>
+      </div>
+      <div id="sub">
+        <p style="font-size: 14px;"><b>G/F PLAZA NANING, BALIWAG, BULACAN</b></p>
+        <p style="font-size: 14px;">Contact No. (044) 766 0229</p>
+      </div>
+    </div>
+
+    <div id="business-hours">
+      <div id="business">
+        <div><i id="fas fa-clock"></i></div>
+        <div id="text">
+          <h3 style="text-transform: uppercase; font-size: 14px;">Business Hours</h3>
+          <div id="day" style="font-size: 13px;">
+            <ul>
+              <li><span id="day-name">Sun:</span><span id="time">10:00 AM - 07:00 PM</span></li>
+              <li><span id="day-name">Mon:</span><span id="time">10:00 AM - 08:00 PM</span></li>
+              <li><span id="day-name">Tue:</span><span id="time">10:00 AM - 02:00 PM</span></li>
+              <li><span id="day-name">Wed:</span><span id="time">10:00 AM - 08:00 PM</span></li>
+              <li><span id="day-name">Thu:</span><span id="time">10:00 AM - 08:00 PM</span></li>
+              <li><span id="day-name">Fri:</span><span id="time">10:00 AM - 08:00 PM</span></li>
+              <li><span id="day-name">Sat:</span><span id="time">10:00 AM - 08:00 PM</span></li>
+            </ul>
+          </div>
+        </div>
+        <div id="services">
+          <span>
+            <div><i id="fas fa-motorcycle"></i></div>
+            <h3 style="font-size: 14px;">Services</h3>
+            <ul>
+              <li>Deliver Now</li>
+              <li>Deliver Later</li>
+              <li>Pick Up Now</li>
+              <li>Pick Up Later</li>
+              <li>Gift-a-Greenwich Now</li>
+              <li>Gift-a-Greenwich Later</li>
+            </ul>
+          </span>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>
+
+<script>
+  function searchLocation() {
+    alert('Searching...');
+  }
+
+  function clearLocation() {
+    document.getElementById('location').value = '';
+  }
+</script>
+
+</body>
+<div id="last">
+  <div id="backk">
+    <a  href="#"><b>Back to Top</b></a>
+  </div>
+  <div id="footer">
+  <div id="fpic">
+    <img src="navpic.webp" width="115" height="50">
+  </div>
+  <div id="up">
+    <div id="coni">
+        <h3 style="font-size: 13px;">ABOUT</h3>
+        <a href="file:///C:/Users/leonil/Desktop/GREENWICH/ABOUT/index.html" id="m">About Us</a>
+        <br></br>
+        <a href="file:///C:/Users/leonil/Desktop/GREENWICH/CONTACT%20US/index.html" id="m">Contact Us</a>
+        <br></br>
+        <a href="file:///C:/Users/leonil/Desktop/GREENWICH/Store%20Locator/index.html#" id="m">Store Locator</a>
+        <br></br>
+        <a href="file:///C:/Users/leonil/Desktop/GREENWICH/ALLERGEN/index.html" id="m">Allergen Information</a>
+        <br></br>
+        <a href="file:///C:/Users/leonil/Desktop/GREENWICH/FRANCHISE/index.html" id="m">Franchising</a>
+        <br></br>
+        <a href="file:///C:/Users/leonil/Desktop/GREENWICH/CAREER/index.html" id="m">Careers</a>
+    </div>
+    <div id="cons">
+        <h3 style="font-size: 13px;">QUICK LINKS</h3>
+        <a href="" id="g">Feedback</a>
+        <br></br>
+        <a href="" id="g">Privacy Notice </a>
+        <br></br>
+        <a href="" id="g">Terms and Condition</a>
+        <br></br>
+        <a href="file:///C:/Users/leonil/Desktop/GREENWICH/CORPORATE%20INFORMATION/index.html" id="g">Corporate information</a>
+    </div>	
+     <div id="const">
+        <h3 style="font-size: 15px;">Connect With Us</h3>
+        <div id="web">
+            <div id="fb">
+                <img src="fb.png" width="60" height="70">
+            </div>
+            <div id="tt">
+                <img src="twitter.png" width="60" height="70">
+            </div>
+            <div id="ig">
+                <img src="instagram.png" width="60" height="70">
+            </div>
+            <div id="yt">
+                <img src="youtube.png" width="60" height="70">
+            </div>
+        </div>
+    </div>	
+  </div>
+  </div>
+  <div id = "rights">
+    <p> Copyright &copy; 2024 Greenwich. All Rights Reserved.</p>
+    </div>
+  </div>
+</html>
